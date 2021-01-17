@@ -1,0 +1,16 @@
+{
+	"manifest_version": 2,
+
+	"name": "Bill's Google Docs Navigator",
+	"description": "Easily Open Google Docs without opening drive",
+	"version": "1.0",
+	"permissions":[
+		"storage",
+		"tabs"
+	],
+	"browser_action": {
+		"default_icon": "icon.png",
+		"default_title": "Go to Dev.Opera!",
+		"default_popup": "popup.html"
+	}
+}
